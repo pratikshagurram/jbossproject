@@ -1,2 +1,2 @@
 FROM tomcat
-COPY target/MavenProject.war /usr/local/tomcat/webapps/MavenProject.war
+COPY target/MavenProject.war /tmp/build/inputs/MavenProject.war
